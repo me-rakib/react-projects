@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #F9DB6D;
+}
+
+.card {
+  cursor: pointer;
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+}
+
+.card-text {
+  width: 35rem;
+  margin: 1rem 0;
+}
+
+.card-text-one {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gutter {
+  background-color: #000;
+
+  background-repeat: no-repeat;
+  /* background-position: 50%; */
+  background-position: 30%;
+}
+
+.gutter.gutter-horizontal {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+}
+
+.gutter.gutter-horizontal:hover {
+  cursor: col-resize;
+}
+
+
+.split {
+  display: flex;
+}
+
+.p1 {
+  background-color: antiquewhite;
+  width: 30%;
+  height: 100vh;
+  margin-right: 20px;
+}
+.p2 {
+  width: 80%;
+   background-color: burlywood;
+   height: 80vh;
+   margin-left: 20px;
+}
+
+.container {
+  height: 100vh;
+}
